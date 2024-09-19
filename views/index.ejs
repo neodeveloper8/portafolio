@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de <%= nombre %></title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <header>
+                <h1>Bienvenido al Portafolio de <%= nombre %></h1>
+            </header>
+
+            <section>
+                <h2>Sobre mí</h2>
+                <p>¡Hola! Soy <%= nombre %>, un estudiante de Diseño y Desarrollo de Software cursando el quinto ciclo. Soy una persona apasionada por la programación y con muchas ganas de acabar la carrera y poder ejercer mis conocimientos y habilidades que he aprendido a lo largo de todo este trayecto. Me considero una persona con muchas ganas y actitud de poder desempeñarme en cualquier rol que me indiquen realizar. Soy muy proactivo y con ansias de salir al mundo real a desenvolverme en lo que tanto me agrada.</p>
+            </section>
+        </div>
+
+        <!-- Imagen redondeada -->
+        <img src="/images/perfil.jpg" alt="Foto de <%= nombre %>" class="foto-redondeada">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="/Portafolio/<%= nombre %>/habilidades">Habilidades</a></li>
+            <li><a href="/Portafolio/<%= nombre %>/experiencia">Experiencia</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+

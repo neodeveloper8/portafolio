@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades de <%= nombre %></title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Habilidades de <%= nombre %></h1>
+        </header>
+
+        <section>
+            <h2>Mis habilidades principales</h2>
+            <div class="skill">
+                <p>Desarrollo Web (HTML, CSS, JavaScript)</p>
+                <div class="progress-bar">
+                    <div class="progress" data-percentage="90"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Node.js y Express</p>
+                <div class="progress-bar">
+                    <div class="progress" data-percentage="85"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Base de Datos (MongoDB, MySQL)</p>
+                <div class="progress-bar">
+                    <div class="progress" data-percentage="80"></div>
+                </div>
+            </div>
+        </section>
+
+        <nav>
+            <ul>
+                <li><a href="/Portafolio/<%= nombre %>">Volver al inicio</a></li>
+                <li><a href="/Portafolio/<%= nombre %>/experiencia">Experiencia</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="/js/main.js"></script> <!-- Archivo JavaScript para animar barras -->
+</body>
+</html>

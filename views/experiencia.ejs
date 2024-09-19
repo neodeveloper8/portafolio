@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiencia de <%= nombre %></title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <header>
+                <h1>Mi experiencia profesional</h1>
+            </header>
+
+            <section class="experiencia">
+                <h2>Experiencia profesional</h2>
+                <ul>
+                    <li>
+                        <strong>Desarrollador Backend en Empresa Fibertel Networks</strong>
+                        <p>Realicé el desarrollo backend de la página web de Fibertel, implementando lógica de programación para automatizar algunas tareas que necesitan ser procesadas con mayor fluidez y rapidez. También optimicé la carga de archivos, para que tenga mayor volatilidad y se procesen más rápido los diferentes archivos que se suban a la plataforma.</p>
+                    </li>
+                    <li>
+                        <strong>Manejo de Web Scraping para servidor en Odoo</strong>
+                        <p>Implementación de soluciones de scraping automatizadas para la extracción de datos desde varias plataformas web utilizando el servidor Odoo.</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="/Portafolio/<%= nombre %>">Volver al inicio</a></li>
+                <li><a href="/Portafolio/<%= nombre %>/habilidades">Habilidades</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
