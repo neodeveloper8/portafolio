@@ -24,6 +24,6 @@ app.get('/Portafolio/:nombre/experiencia', (req, res) => {
 });
 
 // Iniciar el servidor
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log('Servidor ejecutándose en http://localhost:3000');
 });
